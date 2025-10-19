@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+  int x,n,i,j;
+  printf("give n , 0<n<=10");
+  scanf("%d",&n);
+  int m[n][n];
+  printf("give m");
+  for(i=0;i<n;i++)
+    for(j=0;j<n;j++)
+      scanf("%d",&m[i][j]);
+}
